@@ -46,4 +46,6 @@
 
 (defn hooks
   []
+  (add-repl-hook)
+  #_
   (add-hook #'main/resolve-task resolve-task-hook))
